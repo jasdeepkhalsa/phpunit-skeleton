@@ -39,7 +39,7 @@ Once you've successfully installed PHPUnit Skeleton, you'll probably want to cus
 ### How do I change the name of the application? ###
 Once you have the name of your application which we shall refer to as `YourApp`, then do the following:
 
-1. First you have to change the entry `Application` in the `composer.json` file to `YourApp`:
+1. First you have to change the entry `Application` in the `composer.json` file to `YourApp` under the object `psr-0`:
 
   >		{
   >			"require-dev": {
@@ -49,7 +49,7 @@ Once you have the name of your application which we shall refer to as `YourApp`,
   >			},
   >			"autoload": {
   >				"psr-0": {
-  >					"`YourApp`": "lib/"
+  >					"YourApp": "lib/"
   >				}
   >			}
   >		}
