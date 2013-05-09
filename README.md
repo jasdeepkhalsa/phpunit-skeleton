@@ -40,21 +40,20 @@ Once you've successfully installed PHPUnit Skeleton, you'll probably want to cus
 Once you have the name of your application which we shall refer to as `YourApp`, then do the following:
 
 1. First you have to change the entry `Application` in the `composer.json` file to `YourApp`:
- 
->
->	{
->		"require-dev": {
->			"phpunit/phpunit": "3.7.*",
->			"phpunit/dbunit": ">=1.2",
->			"phpunit/phpunit-selenium": ">=1.2"
->		},
->		"autoload": {
->			"psr-0": {
->				"`YourApp`": "lib/"
->			}
->		}
->	}
->
+
+  >		{
+  >			"require-dev": {
+  >				"phpunit/phpunit": "3.7.*",
+  >				"phpunit/dbunit": ">=1.2",
+  >				"phpunit/phpunit-selenium": ">=1.2"
+  >			},
+  >			"autoload": {
+  >				"psr-0": {
+  >					"`YourApp`": "lib/"
+  >				}
+  >			}
+  >		}
+  >
 
 2. Next, rename the following two directories from `Application` to `YourApp`:
 	* Rename `/lib/Application/` to `/lib/YourApp/`
