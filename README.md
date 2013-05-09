@@ -57,15 +57,12 @@ Once you have the name of your application which we shall refer to as `YourApp`,
 >
 
 2. Next, rename the following two directories from `Application` to `YourApp`:
-* Rename `/lib/Application/` to `/lib/YourApp/`
-* Rename `/tests/Application/` to `/tests/YourApp/`
-
+	* Rename `/lib/Application/` to `/lib/YourApp/`
+	* Rename `/tests/Application/` to `/tests/YourApp/`
 3. Finally update the `namespace` inside the following php files:
-* Inside `/lib/YourApp/Example.php` update `namespace Application;` to `namespace YourApp;`
-* Inside `/tests/YourApp/ExampleTest.php` update `$this->obj = new Application\Example;` to `$this->obj = new YourApp\Example;`
-
+	* Inside `/lib/YourApp/Example.php` update `namespace Application;` to `namespace YourApp;`
+	* Inside `/tests/YourApp/ExampleTest.php` update `$this->obj = new Application\Example;` to `$this->obj = new YourApp\Example;`
 4. Run `php composer.phar update` again to update the sources
-
 5. Run `./vendor/bin/phpunit` again to make sure all tests are passing again
 
 ## Credits ##
