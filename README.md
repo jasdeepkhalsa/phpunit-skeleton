@@ -12,7 +12,7 @@ We have also included a sample PHP class so you can learn a few tricks in how to
 ## Simple-tastic 3 Step Installation ##
 * Open a Terminal. Download the repo with `git clone https://github.com/jasdeepkhalsa/tweet-counter.git`
 * `cd` into where you downloaded your repo and run `php composer.phar self-update`
-* Now, run `php composer.phar update`
+* Now, run `php composer.phar install --dev`
 
 Note: `php` refers to the location of your php executable, if its not on your system's path
 
@@ -65,8 +65,8 @@ Once you have the name of your application which we shall refer to as `YourApp`,
 5. Run `./vendor/bin/phpunit` again to make sure all tests are passing again
 
 ## Credits ##
-* Me and my awesomely laborious efforts in getting to grips with PHPUnit testing
-* Constant support from PHP Guru Jujhar Singh from [Buto](http://get.buto.tv/) who also inspired the test case style in the examples
+* To the wonderful people on [Stack Overflow](http://stackoverflow.com/questions/15710410/autoloading-classes-in-phpunit-using-composer-and-autoload-php) for helping me understand PHPUnit better
+* Constant support from PHP Guru Jujhar Singh from [Buto](http://get.buto.tv/) who also inspired the test case style used in the examples
 * Class examples inspired from video by Jeffrey Way from [Nettuts+](http://net.tutsplus.com/tutorials/php/better-workflow-in-php-with-composer-namespacing-and-phpunit/)
 
 ## Contact ##
