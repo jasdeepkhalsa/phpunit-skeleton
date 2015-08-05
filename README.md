@@ -1,4 +1,4 @@
-# PHPUnit Skeleton #
+# PHPUnit Skeleton [![Build Status](https://travis-ci.org/jasdeepkhalsa/phpunit-skeleton.svg)](https://travis-ci.org/jasdeepkhalsa/phpunit-skeleton)
 _Get up and running with PHPUnit testing easily for your project with this skeleton_
 
 * Are you frustrated with trying to install and configure PHPUnit?
